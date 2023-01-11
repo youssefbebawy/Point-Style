@@ -1,6 +1,4 @@
 # Point Library v1.2.2
-### Powered By Dev.Youssef
-
 
 #### What is the point library ?
 * Point is a library for website interface.
