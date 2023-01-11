@@ -1,0 +1,27 @@
+/* Make Effect Mixin
+  
+ !! Warning: Do Not Add any double or single quote's in values !!
+
+  $name (required) => (color, background, ...) name of effect
+  $property (required) => (color, background-image, position, ...)
+  $value (required) => color value of effect
+  $type (required) => effect type ( text, background )
+  $effect (required) => the effect ( Focus, Hover, ...)
+  $endName (optional) => any name do you want to add
+  
+  Examples
+  @include make-effect(dark, color, #222, text, hover)
+  @include make-effect(primary, background, $primary, bg, focus)
+
+*/
+
+@mixin make-effect($name, $property, $value, $type, $effect, $endName: "") {
+  .#{$type}-#{$effect}-#{$name}#{$endName} {
+    transition: $transition-base;
+
+    &:#{$effect} {
+      transition: $transition-base;
+      #{$property}: $value;
+    }
+  }
+}

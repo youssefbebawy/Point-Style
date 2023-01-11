@@ -1,0 +1,27 @@
+.navbar {
+  box-shadow: $navbar-box-shadow;
+}
+
+.navbar-toggler {
+  padding: $navbar-toggler-padding-y $navbar-toggler-padding-x;
+
+  &:focus {
+    box-shadow: $navbar-toggler-box-shadow-focus-light;
+  }
+
+  .navbar-toggler-icon {
+    width: $navbar-toggler-icon-width;
+    height: $navbar-toggler-icon-height;
+  }
+
+}
+
+// Navbar Dark
+.navbar-dark {
+  .navbar-toggler {
+
+    &:focus {
+      box-shadow: $navbar-toggler-box-shadow-focus-dark;
+    }
+  }
+}

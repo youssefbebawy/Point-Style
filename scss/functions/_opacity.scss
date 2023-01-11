@@ -1,0 +1,33 @@
+/* 
+  $min => Min Opacity Transparent ( Required )
+  $max => Max Opacity Transparent ( Required )
+  $input => Your Opacity ( Required )
+  $error => Display Errors default (false) ( Optional )
+  
+  if everything is ok return ( true ) else ( false )
+*/
+@function opacitySize($min, $max, $input, $error: false) {
+  $result: false;
+
+  @if $input>$max {
+    $result: false;
+
+    @if error==true {
+      @error "The opacity is greater then #{$max}";
+    }
+  }
+
+  @else if $input < $min {
+    $result: false;
+
+    @if error==true {
+      @error "The opacity is less then #{$min}";
+    }
+  }
+
+  @else {
+    $result: true;
+  }
+
+  @return $result;
+}

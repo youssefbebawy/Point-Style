@@ -1,0 +1,11 @@
+// Each Loop In Theme Colors
+@each $color,
+$value in $theme-colors {
+  @include make-effect($color, color, $value, text, focus);
+  @include make-effect($color, background, $value, bg, focus);
+}
+
+@for $i from 0 to 5 {
+  // Focus Opacity
+  @include make-effect("", opacity, calc(calc(25 * $i) / 100), opacity, focus, #{calc(25 * $i)});
+}

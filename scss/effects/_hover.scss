@@ -1,0 +1,11 @@
+// Each Loop In Theme Colors
+@each $color,
+$value in $theme-colors {
+  @include make-effect($color, color, $value, text, hover);
+  @include make-effect($color, background, $value, bg, hover);
+}
+
+@for $i from 0 to 5 {
+  // Hover Opacity 
+  @include make-effect("", opacity, calc(calc(25 * $i) / 100), opacity, hover, #{calc(25 * $i)});
+}

@@ -1,0 +1,10 @@
+{
+  "name": "point-style",
+  "version": "1.2.2",
+  "description": "Point Library For Website Interfaces",
+  "scripts": {
+    "start-minify": "sass -w ./scss/point.scss:./css/point.min.css -s compressed",
+    "start": "sass -w ./scss/point.scss:./css/point.css",
+    "setup": "npm install -g sass"
+  }
+}

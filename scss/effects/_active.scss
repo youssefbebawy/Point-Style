@@ -1,0 +1,25 @@
+@each $color,
+$value in $theme-colors {
+
+  // Active Text
+  .text-active-#{$color} {
+    [class*="active"] {
+      color: $value;
+    }
+  }
+
+  // Active Background
+  .bg-active-#{$color} {
+    [class*="active"] {
+      background: $value !important;
+    }
+  }
+}
+
+@for $i from 0 to 5 {
+  .opacity-active-#{calc($i * 25)} {
+    [class*="active"] {
+      opacity: calc(calc($i * 25) / 100);
+    }
+  }
+}
