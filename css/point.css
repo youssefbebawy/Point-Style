@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
- * Bootstrap  v5.2.2 (https://getbootstrap.com/)
+ * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
@@ -6375,7 +6375,6 @@ textarea.form-control-lg {
   display: block;
 }
 
-/* rtl:begin:ignore */
 .carousel-item-next:not(.carousel-item-start),
 .active.carousel-item-end {
   transform: translateX(100%);
@@ -6386,7 +6385,6 @@ textarea.form-control-lg {
   transform: translateX(-100%);
 }
 
-/* rtl:end:ignore */
 .carousel-fade .carousel-item {
   opacity: 0;
   transition-property: opacity;
@@ -17247,7 +17245,7 @@ textarea.form-control-lg {
 
  !! Warning: Do Not Add any double or single quote's in values !!
 
-  $name (required) => (color, background, ...) name of effect
+  $name (required) => (color, bg, ...) name of effect
   $property (required) => (color, background-image, position, ...)
   $value (required) => color value of effect
   $type (required) => effect type ( text, background )
@@ -21862,7 +21860,7 @@ p {
 }
 .text-hover-primary:hover {
   transition: all 0.2s ease-in-out;
-  color: #cb0c9f;
+  color: #cb0c9f !important;
 }
 
 .bg-hover-primary {
@@ -21870,7 +21868,7 @@ p {
 }
 .bg-hover-primary:hover {
   transition: all 0.2s ease-in-out;
-  background: #cb0c9f;
+  background: #cb0c9f !important;
 }
 
 .text-hover-secondary {
@@ -21878,7 +21876,7 @@ p {
 }
 .text-hover-secondary:hover {
   transition: all 0.2s ease-in-out;
-  color: #8392AB;
+  color: #8392AB !important;
 }
 
 .bg-hover-secondary {
@@ -21886,7 +21884,7 @@ p {
 }
 .bg-hover-secondary:hover {
   transition: all 0.2s ease-in-out;
-  background: #8392AB;
+  background: #8392AB !important;
 }
 
 .text-hover-success {
@@ -21894,7 +21892,7 @@ p {
 }
 .text-hover-success:hover {
   transition: all 0.2s ease-in-out;
-  color: #82d616;
+  color: #82d616 !important;
 }
 
 .bg-hover-success {
@@ -21902,7 +21900,7 @@ p {
 }
 .bg-hover-success:hover {
   transition: all 0.2s ease-in-out;
-  background: #82d616;
+  background: #82d616 !important;
 }
 
 .text-hover-info {
@@ -21910,7 +21908,7 @@ p {
 }
 .text-hover-info:hover {
   transition: all 0.2s ease-in-out;
-  color: #17c1e8;
+  color: #17c1e8 !important;
 }
 
 .bg-hover-info {
@@ -21918,7 +21916,7 @@ p {
 }
 .bg-hover-info:hover {
   transition: all 0.2s ease-in-out;
-  background: #17c1e8;
+  background: #17c1e8 !important;
 }
 
 .text-hover-warning {
@@ -21926,7 +21924,7 @@ p {
 }
 .text-hover-warning:hover {
   transition: all 0.2s ease-in-out;
-  color: #fbcf33;
+  color: #fbcf33 !important;
 }
 
 .bg-hover-warning {
@@ -21934,7 +21932,7 @@ p {
 }
 .bg-hover-warning:hover {
   transition: all 0.2s ease-in-out;
-  background: #fbcf33;
+  background: #fbcf33 !important;
 }
 
 .text-hover-danger {
@@ -21942,7 +21940,7 @@ p {
 }
 .text-hover-danger:hover {
   transition: all 0.2s ease-in-out;
-  color: #ea0606;
+  color: #ea0606 !important;
 }
 
 .bg-hover-danger {
@@ -21950,7 +21948,7 @@ p {
 }
 .bg-hover-danger:hover {
   transition: all 0.2s ease-in-out;
-  background: #ea0606;
+  background: #ea0606 !important;
 }
 
 .text-hover-light {
@@ -21958,7 +21956,7 @@ p {
 }
 .text-hover-light:hover {
   transition: all 0.2s ease-in-out;
-  color: #e9ecef;
+  color: #e9ecef !important;
 }
 
 .bg-hover-light {
@@ -21966,7 +21964,7 @@ p {
 }
 .bg-hover-light:hover {
   transition: all 0.2s ease-in-out;
-  background: #e9ecef;
+  background: #e9ecef !important;
 }
 
 .text-hover-dark {
@@ -21974,7 +21972,7 @@ p {
 }
 .text-hover-dark:hover {
   transition: all 0.2s ease-in-out;
-  color: #344767;
+  color: #344767 !important;
 }
 
 .bg-hover-dark {
@@ -21982,7 +21980,7 @@ p {
 }
 .bg-hover-dark:hover {
   transition: all 0.2s ease-in-out;
-  background: #344767;
+  background: #344767 !important;
 }
 
 .text-hover-white {
@@ -21990,7 +21988,7 @@ p {
 }
 .text-hover-white:hover {
   transition: all 0.2s ease-in-out;
-  color: #fff;
+  color: #fff !important;
 }
 
 .bg-hover-white {
@@ -21998,7 +21996,7 @@ p {
 }
 .bg-hover-white:hover {
   transition: all 0.2s ease-in-out;
-  background: #fff;
+  background: #fff !important;
 }
 
 .text-hover-yellow-fire {
@@ -22006,7 +22004,7 @@ p {
 }
 .text-hover-yellow-fire:hover {
   transition: all 0.2s ease-in-out;
-  color: #ff6900;
+  color: #ff6900 !important;
 }
 
 .bg-hover-yellow-fire {
@@ -22014,7 +22012,7 @@ p {
 }
 .bg-hover-yellow-fire:hover {
   transition: all 0.2s ease-in-out;
-  background: #ff6900;
+  background: #ff6900 !important;
 }
 
 .text-hover-blue-fire {
@@ -22022,7 +22020,7 @@ p {
 }
 .text-hover-blue-fire:hover {
   transition: all 0.2s ease-in-out;
-  color: #6200EE;
+  color: #6200EE !important;
 }
 
 .bg-hover-blue-fire {
@@ -22030,7 +22028,7 @@ p {
 }
 .bg-hover-blue-fire:hover {
   transition: all 0.2s ease-in-out;
-  background: #6200EE;
+  background: #6200EE !important;
 }
 
 .text-hover-transparent {
@@ -22038,7 +22036,7 @@ p {
 }
 .text-hover-transparent:hover {
   transition: all 0.2s ease-in-out;
-  color: transparent;
+  color: transparent !important;
 }
 
 .bg-hover-transparent {
@@ -22046,7 +22044,63 @@ p {
 }
 .bg-hover-transparent:hover {
   transition: all 0.2s ease-in-out;
-  background: transparent;
+  background: transparent !important;
+}
+
+.shadow-hover-none {
+  transition: all 0.2s ease-in-out;
+}
+.shadow-hover-none:hover {
+  transition: all 0.2s ease-in-out;
+  box-shadow: none !important;
+}
+
+.shadow-hover-xs {
+  transition: all 0.2s ease-in-out;
+}
+.shadow-hover-xs:hover {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 9px -5px rgba(0, 0, 0, 0.15) !important;
+}
+
+.shadow-hover-sm {
+  transition: all 0.2s ease-in-out;
+}
+.shadow-hover-sm:hover {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0.25rem 0.375rem -0.0625rem rgba(20, 20, 20, 0.12), 0 0.125rem 0.25rem -0.0625rem rgba(20, 20, 20, 0.07) !important;
+}
+
+.shadow-hover-md {
+  transition: all 0.2s ease-in-out;
+}
+.shadow-hover-md:hover {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0.3125rem 0.625rem 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+.shadow-hover-lg {
+  transition: all 0.2s ease-in-out;
+}
+.shadow-hover-lg:hover {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 8px 26px -4px rgba(20, 20, 20, 0.15), 0 8px 9px -5px rgba(20, 20, 20, 0.06) !important;
+}
+
+.shadow-hover-xl {
+  transition: all 0.2s ease-in-out;
+}
+.shadow-hover-xl:hover {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 23px 45px -11px rgba(20, 20, 20, 0.25) !important;
+}
+
+.shadow-hover-inset {
+  transition: all 0.2s ease-in-out;
+}
+.shadow-hover-inset:hover {
+  transition: all 0.2s ease-in-out;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075) !important;
 }
 
 .opacity-hover-0 {
@@ -22054,7 +22108,7 @@ p {
 }
 .opacity-hover-0:hover {
   transition: all 0.2s ease-in-out;
-  opacity: 0;
+  opacity: 0 !important;
 }
 
 .opacity-hover-25 {
@@ -22062,7 +22116,7 @@ p {
 }
 .opacity-hover-25:hover {
   transition: all 0.2s ease-in-out;
-  opacity: 0.25;
+  opacity: 0.25 !important;
 }
 
 .opacity-hover-50 {
@@ -22070,7 +22124,7 @@ p {
 }
 .opacity-hover-50:hover {
   transition: all 0.2s ease-in-out;
-  opacity: 0.5;
+  opacity: 0.5 !important;
 }
 
 .opacity-hover-75 {
@@ -22078,7 +22132,7 @@ p {
 }
 .opacity-hover-75:hover {
   transition: all 0.2s ease-in-out;
-  opacity: 0.75;
+  opacity: 0.75 !important;
 }
 
 .opacity-hover-100 {
@@ -22086,7 +22140,7 @@ p {
 }
 .opacity-hover-100:hover {
   transition: all 0.2s ease-in-out;
-  opacity: 1;
+  opacity: 1 !important;
 }
 
 .text-focus-primary {
@@ -22094,7 +22148,7 @@ p {
 }
 .text-focus-primary:focus {
   transition: all 0.2s ease-in-out;
-  color: #cb0c9f;
+  color: #cb0c9f !important;
 }
 
 .bg-focus-primary {
@@ -22102,7 +22156,7 @@ p {
 }
 .bg-focus-primary:focus {
   transition: all 0.2s ease-in-out;
-  background: #cb0c9f;
+  background: #cb0c9f !important;
 }
 
 .text-focus-secondary {
@@ -22110,7 +22164,7 @@ p {
 }
 .text-focus-secondary:focus {
   transition: all 0.2s ease-in-out;
-  color: #8392AB;
+  color: #8392AB !important;
 }
 
 .bg-focus-secondary {
@@ -22118,7 +22172,7 @@ p {
 }
 .bg-focus-secondary:focus {
   transition: all 0.2s ease-in-out;
-  background: #8392AB;
+  background: #8392AB !important;
 }
 
 .text-focus-success {
@@ -22126,7 +22180,7 @@ p {
 }
 .text-focus-success:focus {
   transition: all 0.2s ease-in-out;
-  color: #82d616;
+  color: #82d616 !important;
 }
 
 .bg-focus-success {
@@ -22134,7 +22188,7 @@ p {
 }
 .bg-focus-success:focus {
   transition: all 0.2s ease-in-out;
-  background: #82d616;
+  background: #82d616 !important;
 }
 
 .text-focus-info {
@@ -22142,7 +22196,7 @@ p {
 }
 .text-focus-info:focus {
   transition: all 0.2s ease-in-out;
-  color: #17c1e8;
+  color: #17c1e8 !important;
 }
 
 .bg-focus-info {
@@ -22150,7 +22204,7 @@ p {
 }
 .bg-focus-info:focus {
   transition: all 0.2s ease-in-out;
-  background: #17c1e8;
+  background: #17c1e8 !important;
 }
 
 .text-focus-warning {
@@ -22158,7 +22212,7 @@ p {
 }
 .text-focus-warning:focus {
   transition: all 0.2s ease-in-out;
-  color: #fbcf33;
+  color: #fbcf33 !important;
 }
 
 .bg-focus-warning {
@@ -22166,7 +22220,7 @@ p {
 }
 .bg-focus-warning:focus {
   transition: all 0.2s ease-in-out;
-  background: #fbcf33;
+  background: #fbcf33 !important;
 }
 
 .text-focus-danger {
@@ -22174,7 +22228,7 @@ p {
 }
 .text-focus-danger:focus {
   transition: all 0.2s ease-in-out;
-  color: #ea0606;
+  color: #ea0606 !important;
 }
 
 .bg-focus-danger {
@@ -22182,7 +22236,7 @@ p {
 }
 .bg-focus-danger:focus {
   transition: all 0.2s ease-in-out;
-  background: #ea0606;
+  background: #ea0606 !important;
 }
 
 .text-focus-light {
@@ -22190,7 +22244,7 @@ p {
 }
 .text-focus-light:focus {
   transition: all 0.2s ease-in-out;
-  color: #e9ecef;
+  color: #e9ecef !important;
 }
 
 .bg-focus-light {
@@ -22198,7 +22252,7 @@ p {
 }
 .bg-focus-light:focus {
   transition: all 0.2s ease-in-out;
-  background: #e9ecef;
+  background: #e9ecef !important;
 }
 
 .text-focus-dark {
@@ -22206,7 +22260,7 @@ p {
 }
 .text-focus-dark:focus {
   transition: all 0.2s ease-in-out;
-  color: #344767;
+  color: #344767 !important;
 }
 
 .bg-focus-dark {
@@ -22214,7 +22268,7 @@ p {
 }
 .bg-focus-dark:focus {
   transition: all 0.2s ease-in-out;
-  background: #344767;
+  background: #344767 !important;
 }
 
 .text-focus-white {
@@ -22222,7 +22276,7 @@ p {
 }
 .text-focus-white:focus {
   transition: all 0.2s ease-in-out;
-  color: #fff;
+  color: #fff !important;
 }
 
 .bg-focus-white {
@@ -22230,7 +22284,7 @@ p {
 }
 .bg-focus-white:focus {
   transition: all 0.2s ease-in-out;
-  background: #fff;
+  background: #fff !important;
 }
 
 .text-focus-yellow-fire {
@@ -22238,7 +22292,7 @@ p {
 }
 .text-focus-yellow-fire:focus {
   transition: all 0.2s ease-in-out;
-  color: #ff6900;
+  color: #ff6900 !important;
 }
 
 .bg-focus-yellow-fire {
@@ -22246,7 +22300,7 @@ p {
 }
 .bg-focus-yellow-fire:focus {
   transition: all 0.2s ease-in-out;
-  background: #ff6900;
+  background: #ff6900 !important;
 }
 
 .text-focus-blue-fire {
@@ -22254,7 +22308,7 @@ p {
 }
 .text-focus-blue-fire:focus {
   transition: all 0.2s ease-in-out;
-  color: #6200EE;
+  color: #6200EE !important;
 }
 
 .bg-focus-blue-fire {
@@ -22262,7 +22316,7 @@ p {
 }
 .bg-focus-blue-fire:focus {
   transition: all 0.2s ease-in-out;
-  background: #6200EE;
+  background: #6200EE !important;
 }
 
 .text-focus-transparent {
@@ -22270,7 +22324,7 @@ p {
 }
 .text-focus-transparent:focus {
   transition: all 0.2s ease-in-out;
-  color: transparent;
+  color: transparent !important;
 }
 
 .bg-focus-transparent {
@@ -22278,7 +22332,63 @@ p {
 }
 .bg-focus-transparent:focus {
   transition: all 0.2s ease-in-out;
-  background: transparent;
+  background: transparent !important;
+}
+
+.shadow-focus-none {
+  transition: all 0.2s ease-in-out;
+}
+.shadow-focus-none:focus {
+  transition: all 0.2s ease-in-out;
+  box-shadow: none !important;
+}
+
+.shadow-focus-xs {
+  transition: all 0.2s ease-in-out;
+}
+.shadow-focus-xs:focus {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 9px -5px rgba(0, 0, 0, 0.15) !important;
+}
+
+.shadow-focus-sm {
+  transition: all 0.2s ease-in-out;
+}
+.shadow-focus-sm:focus {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0.25rem 0.375rem -0.0625rem rgba(20, 20, 20, 0.12), 0 0.125rem 0.25rem -0.0625rem rgba(20, 20, 20, 0.07) !important;
+}
+
+.shadow-focus-md {
+  transition: all 0.2s ease-in-out;
+}
+.shadow-focus-md:focus {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0.3125rem 0.625rem 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+.shadow-focus-lg {
+  transition: all 0.2s ease-in-out;
+}
+.shadow-focus-lg:focus {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 8px 26px -4px rgba(20, 20, 20, 0.15), 0 8px 9px -5px rgba(20, 20, 20, 0.06) !important;
+}
+
+.shadow-focus-xl {
+  transition: all 0.2s ease-in-out;
+}
+.shadow-focus-xl:focus {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 23px 45px -11px rgba(20, 20, 20, 0.25) !important;
+}
+
+.shadow-focus-inset {
+  transition: all 0.2s ease-in-out;
+}
+.shadow-focus-inset:focus {
+  transition: all 0.2s ease-in-out;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075) !important;
 }
 
 .opacity-focus-0 {
@@ -22286,7 +22396,7 @@ p {
 }
 .opacity-focus-0:focus {
   transition: all 0.2s ease-in-out;
-  opacity: 0;
+  opacity: 0 !important;
 }
 
 .opacity-focus-25 {
@@ -22294,7 +22404,7 @@ p {
 }
 .opacity-focus-25:focus {
   transition: all 0.2s ease-in-out;
-  opacity: 0.25;
+  opacity: 0.25 !important;
 }
 
 .opacity-focus-50 {
@@ -22302,7 +22412,7 @@ p {
 }
 .opacity-focus-50:focus {
   transition: all 0.2s ease-in-out;
-  opacity: 0.5;
+  opacity: 0.5 !important;
 }
 
 .opacity-focus-75 {
@@ -22310,7 +22420,7 @@ p {
 }
 .opacity-focus-75:focus {
   transition: all 0.2s ease-in-out;
-  opacity: 0.75;
+  opacity: 0.75 !important;
 }
 
 .opacity-focus-100 {
@@ -22318,123 +22428,156 @@ p {
 }
 .opacity-focus-100:focus {
   transition: all 0.2s ease-in-out;
-  opacity: 1;
+  opacity: 1 !important;
 }
 
-.text-active-primary [class*=active] {
-  color: #cb0c9f;
+/*.How To Use This Effect? 
+ * 1- Add {property}-active-{effect} to parent element
+    - text-active-success
+ * 2- Add active class to any child element
+*/
+.text-active-primary .active {
+  color: #cb0c9f !important;
 }
 
-.bg-active-primary [class*=active] {
+.bg-active-primary .active {
   background: #cb0c9f !important;
 }
 
-.text-active-secondary [class*=active] {
-  color: #8392AB;
+.text-active-secondary .active {
+  color: #8392AB !important;
 }
 
-.bg-active-secondary [class*=active] {
+.bg-active-secondary .active {
   background: #8392AB !important;
 }
 
-.text-active-success [class*=active] {
-  color: #82d616;
+.text-active-success .active {
+  color: #82d616 !important;
 }
 
-.bg-active-success [class*=active] {
+.bg-active-success .active {
   background: #82d616 !important;
 }
 
-.text-active-info [class*=active] {
-  color: #17c1e8;
+.text-active-info .active {
+  color: #17c1e8 !important;
 }
 
-.bg-active-info [class*=active] {
+.bg-active-info .active {
   background: #17c1e8 !important;
 }
 
-.text-active-warning [class*=active] {
-  color: #fbcf33;
+.text-active-warning .active {
+  color: #fbcf33 !important;
 }
 
-.bg-active-warning [class*=active] {
+.bg-active-warning .active {
   background: #fbcf33 !important;
 }
 
-.text-active-danger [class*=active] {
-  color: #ea0606;
+.text-active-danger .active {
+  color: #ea0606 !important;
 }
 
-.bg-active-danger [class*=active] {
+.bg-active-danger .active {
   background: #ea0606 !important;
 }
 
-.text-active-light [class*=active] {
-  color: #e9ecef;
+.text-active-light .active {
+  color: #e9ecef !important;
 }
 
-.bg-active-light [class*=active] {
+.bg-active-light .active {
   background: #e9ecef !important;
 }
 
-.text-active-dark [class*=active] {
-  color: #344767;
+.text-active-dark .active {
+  color: #344767 !important;
 }
 
-.bg-active-dark [class*=active] {
+.bg-active-dark .active {
   background: #344767 !important;
 }
 
-.text-active-white [class*=active] {
-  color: #fff;
+.text-active-white .active {
+  color: #fff !important;
 }
 
-.bg-active-white [class*=active] {
+.bg-active-white .active {
   background: #fff !important;
 }
 
-.text-active-yellow-fire [class*=active] {
-  color: #ff6900;
+.text-active-yellow-fire .active {
+  color: #ff6900 !important;
 }
 
-.bg-active-yellow-fire [class*=active] {
+.bg-active-yellow-fire .active {
   background: #ff6900 !important;
 }
 
-.text-active-blue-fire [class*=active] {
-  color: #6200EE;
+.text-active-blue-fire .active {
+  color: #6200EE !important;
 }
 
-.bg-active-blue-fire [class*=active] {
+.bg-active-blue-fire .active {
   background: #6200EE !important;
 }
 
-.text-active-transparent [class*=active] {
-  color: transparent;
+.text-active-transparent .active {
+  color: transparent !important;
 }
 
-.bg-active-transparent [class*=active] {
+.bg-active-transparent .active {
   background: transparent !important;
 }
 
-.opacity-active-0 [class*=active] {
-  opacity: 0;
+.shadow-active-none .active {
+  box-shadow: none !important;
 }
 
-.opacity-active-25 [class*=active] {
-  opacity: 0.25;
+.shadow-active-xs .active {
+  box-shadow: 0 2px 9px -5px rgba(0, 0, 0, 0.15) !important;
 }
 
-.opacity-active-50 [class*=active] {
-  opacity: 0.5;
+.shadow-active-sm .active {
+  box-shadow: 0 0.25rem 0.375rem -0.0625rem rgba(20, 20, 20, 0.12), 0 0.125rem 0.25rem -0.0625rem rgba(20, 20, 20, 0.07) !important;
 }
 
-.opacity-active-75 [class*=active] {
-  opacity: 0.75;
+.shadow-active-md .active {
+  box-shadow: 0 0.3125rem 0.625rem 0 rgba(0, 0, 0, 0.12) !important;
 }
 
-.opacity-active-100 [class*=active] {
-  opacity: 1;
+.shadow-active-lg .active {
+  box-shadow: 0 8px 26px -4px rgba(20, 20, 20, 0.15), 0 8px 9px -5px rgba(20, 20, 20, 0.06) !important;
+}
+
+.shadow-active-xl .active {
+  box-shadow: 0 23px 45px -11px rgba(20, 20, 20, 0.25) !important;
+}
+
+.shadow-active-inset .active {
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075) !important;
+}
+
+.opacity-active-0 .active {
+  opacity: 0 !important;
+}
+
+.opacity-active-25 .active {
+  opacity: 0.25 !important;
+}
+
+.opacity-active-50 .active {
+  opacity: 0.5 !important;
+}
+
+.opacity-active-75 .active {
+  opacity: 0.75 !important;
+}
+
+.opacity-active-100 .active {
+  opacity: 1 !important;
 }
 
 /*# sourceMappingURL=point.css.map */

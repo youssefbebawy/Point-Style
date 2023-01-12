@@ -1,25 +1,42 @@
+/*.How To Use This Effect? 
+ * 1- Add {property}-active-{effect} to parent element
+    - text-active-success
+ * 2- Add active class to any child element
+*/
+
 @each $color,
 $value in $theme-colors {
 
   // Active Text
   .text-active-#{$color} {
-    [class*="active"] {
-      color: $value;
+    .active {
+      color: $value !important;
     }
   }
 
   // Active Background
   .bg-active-#{$color} {
-    [class*="active"] {
+    .active {
       background: $value !important;
     }
   }
 }
 
+// Active Shadow
+@each $shadow,
+$value in $box-shadow-map {
+  .shadow-active-#{$shadow} {
+    .active {
+      box-shadow: $value !important;
+    }
+  }
+}
+
+// Active Opacity
 @for $i from 0 to 5 {
   .opacity-active-#{calc($i * 25)} {
-    [class*="active"] {
-      opacity: calc(calc($i * 25) / 100);
+    .active {
+      opacity: calc(calc($i * 25) / 100) !important;
     }
   }
 }

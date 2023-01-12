@@ -2,7 +2,7 @@
   
  !! Warning: Do Not Add any double or single quote's in values !!
 
-  $name (required) => (color, background, ...) name of effect
+  $name (required) => (color, bg, ...) name of effect
   $property (required) => (color, background-image, position, ...)
   $value (required) => color value of effect
   $type (required) => effect type ( text, background )
@@ -21,7 +21,8 @@
 
     &:#{$effect} {
       transition: $transition-base;
-      #{$property}: $value;
+      #{$property}: $value !important;
     }
+    @content;
   }
 }

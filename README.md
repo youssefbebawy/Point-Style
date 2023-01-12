@@ -17,14 +17,15 @@
 
 ## Features
   
-* Support Bootstrap Syntax
+* Support Bootstrap Syntax v5.2.3
 * Support Node Package Manager
 * Support react-bootstrap Components
+
 
 ## Updates
 
 ### v1.1.9
-  * Gradient Colors ( in Examples)
+  * Gradient Colors ( in Examples )
 
 ### v1.2.0
   -  New Colors (Fire Colors) ( in Examples )
@@ -45,3 +46,8 @@
   - "background when active" ( in Examples )
   - "text color when active" ( in Examples )
   - "fix dropdown-toggle icon not found"
+  - "Update Bootstrap" < v5.2.3 >
+  - "Fix utilities file errors"
+  - "Change shadow when focus" ( in Examples )
+  - "Change shadow when hover" ( in Examples )
+  - "Change shadow when active" ( in Examples )

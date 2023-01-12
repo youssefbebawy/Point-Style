@@ -139,7 +139,7 @@ $utilities: map-merge(
       local-vars: (
         "border-opacity": 1
       ),
-      
+      values: $theme-colors
     ),
     "border-width": (
       css-var: true,
@@ -533,7 +533,7 @@ $utilities: map-merge(
         "text-opacity": 1
       ),
       values: map-merge(
-        (),
+        $theme-colors,
         (
           "muted": $text-muted,
           "black-50": rgba($black, .5), // deprecated
@@ -561,7 +561,7 @@ $utilities: map-merge(
         "bg-opacity": 1
       ),
       values: map-merge(
-        (),
+        $theme-colors,
         (
           "transparent": transparent
         )

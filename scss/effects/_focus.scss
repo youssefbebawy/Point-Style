@@ -5,6 +5,11 @@ $value in $theme-colors {
   @include make-effect($color, background, $value, bg, focus);
 }
 
+// Change Shadow When Focus
+@each $shadow, $value in $box-shadow-map{
+  @include make-effect($shadow, box-shadow, $value, shadow, focus);
+}
+
 @for $i from 0 to 5 {
   // Focus Opacity
   @include make-effect("", opacity, calc(calc(25 * $i) / 100), opacity, focus, #{calc(25 * $i)});
