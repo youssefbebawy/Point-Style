@@ -9,10 +9,10 @@
  
 
 ## How to start
-##### !! Warning You Need To Install Nodejs To Use This Feature !!
-* npm run setup
-* npm start 
-* npm run start-minify
+***!! Warning You Need To Install Nodejs To Use This Feature !!***
+* `npm run setup`
+* `npm start` 
+* `npm run start-minify`
   
 
 ## Features
